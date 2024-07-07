@@ -77,6 +77,23 @@
             transform: translateY(-5px);
             background-color: #333;
         }
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .link-item {
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #1e1e1e;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .link-item:hover {
+            background-color: #388E3C;
+        }
         footer {
             width: 100%;
             background-color: #1f1f1f;
@@ -114,11 +131,24 @@
             <div class="portfolio-item">
                 <h3><a href="https://github.com/AzmainAhnaf/Bookworm-s-Archive/tree/main" target="_blank">Bookworm's Archive</a></h3>
                 <p>
-                    A simple console based application made with <a href="https://openlibrary.org/developers/api" target="_blank">Open Library's API</a>.
-                    It fetches different queries of the users.
+                    A simple console-based application made with <a href="https://openlibrary.org/developers/api" target="_blank">Open Library's API and python</a>.
+                    It fetches answers to different queries of the users.
                 </p>
             </div>
             <!-- Add more projects as needed -->
+        </section>
+        <section class="section" id="links">
+            <h2>Links</h2>
+            <div class="links-container">
+                <a class="link-item" href="mailto:azmainahnaf2003@gmail.com">Email</a>
+                <a class="link-item" href="https://github.com/AzmainAhnaf" target="_blank">GitHub</a>
+                <a class="link-item" href="https://www.linkedin.com/in/azmain-ahnaf-b43987222/" target="_blank">LinkedIn</a>
+                <a class="link-item" href="https://atcoder.jp/users/AzAhnaf2003" target="_blank">AtCoder</a>
+                <a class="link-item" href="https://www.codechef.com/users/azahnaf2003" target="_blank">Codechef</a>
+                <a class="link-item" href="https://codeforces.com/profile/ahanf_1971" target="_blank">Codeforces</a>
+                <a class="link-item" href="https://www.hackerrank.com/profile/azmahn2003" target="_blank">HackerRank</a>
+                <!-- Add more links as needed -->
+            </div>
         </section>
     </main>
     <footer>
